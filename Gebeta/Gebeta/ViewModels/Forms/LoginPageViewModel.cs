@@ -30,7 +30,7 @@ namespace Gebeta.ViewModels.Forms
         }
 
         #endregion
-
+        
         #region property
 
         /// <summary>
@@ -87,18 +87,36 @@ namespace Gebeta.ViewModels.Forms
         /// Invoked when the Log In button is clicked.
         /// </summary>
         /// <param name="obj">The Object</param>
-        private void LoginClicked(object obj)
+        private async void LoginClicked(object obj)
         {
-            // Do something
+            if (string.IsNullOrEmpty(Email) || string.IsNullOrEmpty(Password))
+                await App.Current.MainPage.DisplayAlert("Empty Values", "Please enter Email and Password", "OK");
+            else
+            {
+
+                var user = await FirebaseHelper.GetUser(Email);
+
+                if (user != null)
+                    if (Email == user.Email && Password == user.Password)
+                    {
+                        await App.Current.MainPage.DisplayAlert("Login Success", "", "Ok");
+
+                        await App.Current.MainPage.Navigation.PushAsync(new MainPage());
+                    }
+                    else
+                        await App.Current.MainPage.DisplayAlert("Login Fail", "Please enter correct Email and Password", "OK");
+                else
+                    await App.Current.MainPage.DisplayAlert("Login Fail", "User not found", "OK");
+            }
         }
 
         /// <summary>
         /// Invoked when the Sign Up button is clicked.
         /// </summary>
         /// <param name="obj">The Object</param>
-        private void SignUpClicked(object obj)
+        private async void SignUpClicked(object obj)
         {
-            // Do something
+            await App.Current.MainPage.Navigation.PushAsync(new MainPage());
         }
 
         /// <summary>

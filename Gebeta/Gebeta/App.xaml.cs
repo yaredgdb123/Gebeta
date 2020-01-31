@@ -10,7 +10,7 @@ namespace Gebeta
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new Views.Forms.SignUpPage();
         }
 
         protected override void OnStart()

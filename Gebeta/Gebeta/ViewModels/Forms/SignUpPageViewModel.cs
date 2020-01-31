@@ -124,16 +124,38 @@ namespace Gebeta.ViewModels.Forms
         /// <param name="obj">The Object</param>
         private void LoginClicked(object obj)
         {
-            // Do something
+            App.Current.MainPage.Navigation.PushAsync(new Views.Forms.LoginPage());
         }
 
         /// <summary>
         /// Invoked when the Sign Up button is clicked.
         /// </summary>
         /// <param name="obj">The Object</param>
-        private void SignUpClicked(object obj)
+        private async void SignUpClicked(object obj)
         {
-            // Do something
+            
+            //null or empty field validation, check weather email and password is null or empty    
+
+            if (string.IsNullOrEmpty(Name)||string.IsNullOrEmpty(Email) || string.IsNullOrEmpty(Password))
+                await App.Current.MainPage.DisplayAlert("Empty Values", "Please enter Email and Password", "OK");
+            else
+            {
+                //call AddUser function which we define in Firebase helper class    
+                var user = await FirebaseHelper.AddUser(Name,Email, Password);
+                //AddUser return true if data insert successfuly     
+                if (user)
+                {
+                    await App.Current.MainPage.DisplayAlert("SignUp Success", "", "Ok");
+                    //Navigate to Wellcom page after successfuly SignUp    
+                    //pass user email to welcom page    
+                    await App.Current.MainPage.Navigation.PushAsync(new Views.Forms.LoginPage());
+                }
+                else
+                    await App.Current.MainPage.DisplayAlert("Error", "SignUp Fail", "OK");
+
+            
+        
+            }
         }
 
         #endregion

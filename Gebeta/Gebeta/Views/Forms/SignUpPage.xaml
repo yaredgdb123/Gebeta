@@ -97,16 +97,6 @@
                                 Text="{Binding Password}" />
                         </border:SfBorder>
 
-                        <!--  Entry to get the confirm password from user  -->
-                        <border:SfBorder BorderColor="{Binding Source={x:Reference ConfirmPasswordEntry}, Path=IsFocused, Converter={StaticResource ColorConverter}, ConverterParameter=0}" Style="{StaticResource SfBorderStyle}">
-                            <control:BorderlessEntry
-                                x:Name="ConfirmPasswordEntry"
-                                IsPassword="true"
-                                Placeholder="Confirm Password"
-                                Style="{StaticResource EntryStyle}"
-                                Text="{Binding ConfirmPassword}" />
-                        </border:SfBorder>
-
                         <!--  Sign-up button  -->
                         <buttons:SfButton
                             Command="{Binding SignUpCommand}"
@@ -122,12 +112,7 @@
                         Spacing="1"
                         VerticalOptions="End">
 
-                        <StackLayout.Padding>
-                            <OnIdiom
-                                x:DataType="Thickness"
-                                Default="0, 48, 0, 0"
-                                Phone="0" />
-                        </StackLayout.Padding>
+                        
 
                         <Label
                             FontFamily="{StaticResource Montserrat-Medium}"
