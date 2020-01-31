@@ -145,10 +145,9 @@ namespace Gebeta.ViewModels.Forms
                 //AddUser return true if data insert successfuly     
                 if (user)
                 {
-                    await App.Current.MainPage.DisplayAlert("SignUp Success", "", "Ok");
-                    //Navigate to Wellcom page after successfuly SignUp    
-                    //pass user email to welcom page    
+                    await App.Current.MainPage.Navigation.PopAsync();
                     await App.Current.MainPage.Navigation.PushAsync(new Views.Forms.LoginPage());
+                    
                 }
                 else
                     await App.Current.MainPage.DisplayAlert("Error", "SignUp Fail", "OK");

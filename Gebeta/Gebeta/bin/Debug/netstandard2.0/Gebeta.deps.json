@@ -16,8 +16,10 @@
           "Microsoft.NetCore.Analyzers": "2.9.8",
           "NETStandard.Library": "2.0.3",
           "Syncfusion.Xamarin.Buttons": "17.4.0.46",
+          "Syncfusion.Xamarin.Cards": "17.4.0.46",
           "Syncfusion.Xamarin.Core": "17.4.0.46",
           "Syncfusion.Xamarin.SfComboBox": "17.4.0.46",
+          "Syncfusion.Xamarin.SfRotator": "17.4.0.46",
           "Xamarin.Essentials": "1.2.0",
           "Xamarin.Forms": "4.2.0.709249"
         },
@@ -98,6 +100,18 @@
           }
         }
       },
+      "Syncfusion.Xamarin.Cards/17.4.0.46": {
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "17.4.0.46",
+          "Xamarin.Forms": "4.2.0.709249"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Cards.XForms.dll": {
+            "assemblyVersion": "17.4451.0.46",
+            "fileVersion": "17.4451.0.46"
+          }
+        }
+      },
       "Syncfusion.Xamarin.Core/17.4.0.46": {
         "dependencies": {
           "Syncfusion.Licensing": "17.4.0.46",
@@ -117,6 +131,18 @@
         },
         "runtime": {
           "lib/netstandard2.0/Syncfusion.SfComboBox.XForms.dll": {
+            "assemblyVersion": "17.4451.0.46",
+            "fileVersion": "17.4451.0.46"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.SfRotator/17.4.0.46": {
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "17.4.0.46",
+          "Xamarin.Forms": "4.2.0.709249"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.SfRotator.XForms.dll": {
             "assemblyVersion": "17.4451.0.46",
             "fileVersion": "17.4451.0.46"
           }
@@ -342,6 +368,13 @@
       "path": "syncfusion.xamarin.buttons/17.4.0.46",
       "hashPath": "syncfusion.xamarin.buttons.17.4.0.46.nupkg.sha512"
     },
+    "Syncfusion.Xamarin.Cards/17.4.0.46": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-w56qanux8NyAlftseHh8J1cuKvFWvq6ZUOaqG9V84kmdKg7hr+9rPlgm9fTRJydcbyS7roWtrVqGTNqNWGMcEw==",
+      "path": "syncfusion.xamarin.cards/17.4.0.46",
+      "hashPath": "syncfusion.xamarin.cards.17.4.0.46.nupkg.sha512"
+    },
     "Syncfusion.Xamarin.Core/17.4.0.46": {
       "type": "package",
       "serviceable": true,
@@ -355,6 +388,13 @@
       "sha512": "sha512-gl22W7TEGuZAphUPP5VLVyeSNpXjoMM2Hrgo46j4yG4sKvKPXQmn6MwdRhFTCijsRO04cYYFhGI/OyGJMUq+Jg==",
       "path": "syncfusion.xamarin.sfcombobox/17.4.0.46",
       "hashPath": "syncfusion.xamarin.sfcombobox.17.4.0.46.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.SfRotator/17.4.0.46": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EW8E+Fmn71JuKxtO7ejC5y/c0ce+V3JgPjrvwwg5bwmSl/6X92FwFklnq5ID/bzc/Dga2mJmTFl4JGzlHCXksw==",
+      "path": "syncfusion.xamarin.sfrotator/17.4.0.46",
+      "hashPath": "syncfusion.xamarin.sfrotator.17.4.0.46.nupkg.sha512"
     },
     "System.IO/4.3.0": {
       "type": "package",

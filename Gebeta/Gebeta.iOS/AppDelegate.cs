@@ -1,3 +1,12 @@
+using Syncfusion.SfRotator.XForms.iOS;
+using Syncfusion.XForms.iOS.BadgeView;
+using Syncfusion.XForms.iOS.ComboBox;
+using Syncfusion.XForms.iOS.Core;
+using Syncfusion.XForms.iOS.Graphics;
+using Syncfusion.SfRating.XForms.iOS;
+using Syncfusion.XForms.iOS.PopupLayout;
+using Syncfusion.ListView.XForms.iOS;
+using Syncfusion.XForms.iOS.Cards;
 using  Syncfusion.XForms.iOS.Graphics;
 using Syncfusion.XForms.iOS.Border;
 using Syncfusion.XForms.iOS.Buttons;
@@ -26,6 +35,14 @@ namespace Gebeta.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
+            SfSegmentedControlRenderer.Init();
+            SfRotatorRenderer.Init();
+            SfBadgeViewRenderer.Init();
+            SfRatingRenderer.Init();
+            SfPopupLayoutRenderer.Init();
+            SfComboBoxRenderer.Init();
+            SfListViewRenderer.Init();
+            SfCardViewRenderer.Init();
             SfGradientViewRenderer.Init();
             SfBorderRenderer.Init();
             SfButtonRenderer.Init();

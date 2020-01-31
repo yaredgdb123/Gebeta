@@ -62,6 +62,21 @@
           "lib/MonoAndroid10/Syncfusion.Buttons.XForms.dll": {}
         }
       },
+      "Syncfusion.Xamarin.Cards/17.4.0.46": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "17.4.0.46",
+          "Xamarin.Forms": "3.6.0.344457"
+        },
+        "compile": {
+          "lib/MonoAndroid10/Syncfusion.Cards.XForms.Android.dll": {},
+          "lib/MonoAndroid10/Syncfusion.Cards.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/Syncfusion.Cards.XForms.Android.dll": {},
+          "lib/MonoAndroid10/Syncfusion.Cards.XForms.dll": {}
+        }
+      },
       "Syncfusion.Xamarin.Core/17.4.0.46": {
         "type": "package",
         "dependencies": {
@@ -77,6 +92,39 @@
           "lib/MonoAndroid10/Syncfusion.Core.XForms.dll": {}
         }
       },
+      "Syncfusion.Xamarin.DataSource/17.4.0.46": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid10/Syncfusion.DataSource.Portable.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/Syncfusion.DataSource.Portable.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.GridCommon/17.4.0.46": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid10/Syncfusion.GridCommon.Portable.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/Syncfusion.GridCommon.Portable.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfBadgeView/17.4.0.46": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "17.4.0.46",
+          "Xamarin.Forms": "3.6.0.344457"
+        },
+        "compile": {
+          "lib/MonoAndroid10/Syncfusion.SfBadgeView.XForms.Android.dll": {},
+          "lib/MonoAndroid10/Syncfusion.SfBadgeView.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/Syncfusion.SfBadgeView.XForms.Android.dll": {},
+          "lib/MonoAndroid10/Syncfusion.SfBadgeView.XForms.dll": {}
+        }
+      },
       "Syncfusion.Xamarin.SfComboBox/17.4.0.46": {
         "type": "package",
         "dependencies": {
@@ -90,6 +138,72 @@
         "runtime": {
           "lib/MonoAndroid10/Syncfusion.SfComboBox.XForms.Android.dll": {},
           "lib/MonoAndroid10/Syncfusion.SfComboBox.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfListView/17.4.0.46": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "17.4.0.46",
+          "Syncfusion.Xamarin.DataSource": "17.4.0.46",
+          "Syncfusion.Xamarin.GridCommon": "17.4.0.46",
+          "Xamarin.Forms": "3.6.0.344457"
+        },
+        "compile": {
+          "lib/MonoAndroid10/Syncfusion.SfListView.XForms.Android.dll": {},
+          "lib/MonoAndroid10/Syncfusion.SfListView.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/Syncfusion.SfListView.XForms.Android.dll": {},
+          "lib/MonoAndroid10/Syncfusion.SfListView.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfPopupLayout/17.4.0.46": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "17.4.0.46",
+          "Xamarin.Forms": "3.6.0.344457"
+        },
+        "compile": {
+          "lib/MonoAndroid10/Syncfusion.SfPopupLayout.XForms.Android.dll": {},
+          "lib/MonoAndroid10/Syncfusion.SfPopupLayout.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/Syncfusion.SfPopupLayout.XForms.Android.dll": {},
+          "lib/MonoAndroid10/Syncfusion.SfPopupLayout.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfRating/17.4.0.46": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "17.4.0.46",
+          "Xamarin.Forms": "3.6.0.344457"
+        },
+        "compile": {
+          "lib/MonoAndroid10/Syncfusion.SfRating.Android.dll": {},
+          "lib/MonoAndroid10/Syncfusion.SfRating.XForms.Android.dll": {},
+          "lib/MonoAndroid10/Syncfusion.SfRating.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/Syncfusion.SfRating.Android.dll": {},
+          "lib/MonoAndroid10/Syncfusion.SfRating.XForms.Android.dll": {},
+          "lib/MonoAndroid10/Syncfusion.SfRating.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfRotator/17.4.0.46": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "17.4.0.46",
+          "Xamarin.Forms": "3.6.0.344457"
+        },
+        "compile": {
+          "lib/MonoAndroid10/Syncfusion.SfRotator.Android.dll": {},
+          "lib/MonoAndroid10/Syncfusion.SfRotator.XForms.Android.dll": {},
+          "lib/MonoAndroid10/Syncfusion.SfRotator.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/Syncfusion.SfRotator.Android.dll": {},
+          "lib/MonoAndroid10/Syncfusion.SfRotator.XForms.Android.dll": {},
+          "lib/MonoAndroid10/Syncfusion.SfRotator.XForms.dll": {}
         }
       },
       "System.Numerics.Vectors/4.5.0": {
@@ -935,8 +1049,14 @@
         "dependencies": {
           "FirebaseDatabase.net": "4.0.4",
           "Syncfusion.Xamarin.Buttons": "17.4.0.46",
+          "Syncfusion.Xamarin.Cards": "17.4.0.46",
           "Syncfusion.Xamarin.Core": "17.4.0.46",
+          "Syncfusion.Xamarin.SfBadgeView": "17.4.0.46",
           "Syncfusion.Xamarin.SfComboBox": "17.4.0.46",
+          "Syncfusion.Xamarin.SfListView": "17.4.0.46",
+          "Syncfusion.Xamarin.SfPopupLayout": "17.4.0.46",
+          "Syncfusion.Xamarin.SfRating": "17.4.0.46",
+          "Syncfusion.Xamarin.SfRotator": "17.4.0.46",
           "Xamarin.Essentials": "1.2.0",
           "Xamarin.Forms": "4.2.0.709249"
         },
@@ -1070,6 +1190,31 @@
         "syncfusion.xamarin.buttons.nuspec"
       ]
     },
+    "Syncfusion.Xamarin.Cards/17.4.0.46": {
+      "sha512": "w56qanux8NyAlftseHh8J1cuKvFWvq6ZUOaqG9V84kmdKg7hr+9rPlgm9fTRJydcbyS7roWtrVqGTNqNWGMcEw==",
+      "type": "package",
+      "path": "syncfusion.xamarin.cards/17.4.0.46",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Syncfusion.Cards.XForms.Android.dll",
+        "lib/MonoAndroid10/Syncfusion.Cards.XForms.dll",
+        "lib/MonoAndroid10/Syncfusion.Cards.XForms.xml",
+        "lib/Xamarin.iOS10/Syncfusion.Cards.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Cards.XForms.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Cards.XForms.xml",
+        "lib/netstandard2.0/Syncfusion.Cards.XForms.dll",
+        "lib/netstandard2.0/Syncfusion.Cards.XForms.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Cards.XForms.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Cards.XForms.xml",
+        "lib/uap10.0/Syncfusion.Cards.XForms.UWP.dll",
+        "lib/uap10.0/Syncfusion.Cards.XForms.UWP.xml",
+        "lib/uap10.0/Syncfusion.Cards.XForms.dll",
+        "lib/uap10.0/Syncfusion.Cards.XForms.xml",
+        "syncfusion.xamarin.cards.17.4.0.46.nupkg.sha512",
+        "syncfusion.xamarin.cards.nuspec"
+      ]
+    },
     "Syncfusion.Xamarin.Core/17.4.0.46": {
       "sha512": "KUBYHZRfy5Fk6Ne8Bi2FWwMTC/XM+JqxFz3ZbjyBWZSAZLOHZBpNQFzh38ebLTrOxUOs5XRUc/mwXrxwu1GY2g==",
       "type": "package",
@@ -1101,6 +1246,78 @@
         "syncfusion.xamarin.core.nuspec"
       ]
     },
+    "Syncfusion.Xamarin.DataSource/17.4.0.46": {
+      "sha512": "HMQqevnbmb8TM/kN8S889QkjDl/d+OAHmnbp7doZ/bajsplfeky/BtNGSL0MOhTeKHuXf9R8lOkI+6VfN0mOnw==",
+      "type": "package",
+      "path": "syncfusion.xamarin.datasource/17.4.0.46",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Syncfusion.DataSource.Portable.XML",
+        "lib/MonoAndroid10/Syncfusion.DataSource.Portable.dll",
+        "lib/Xamarin.iOS10/Syncfusion.DataSource.Portable.XML",
+        "lib/Xamarin.iOS10/Syncfusion.DataSource.Portable.dll",
+        "lib/netstandard2.0/Syncfusion.DataSource.Portable.XML",
+        "lib/netstandard2.0/Syncfusion.DataSource.Portable.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.DataSource.Portable.XML",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.DataSource.Portable.dll",
+        "lib/uap10.0/Syncfusion.DataSource.Portable.XML",
+        "lib/uap10.0/Syncfusion.DataSource.Portable.dll",
+        "syncfusion.xamarin.datasource.17.4.0.46.nupkg.sha512",
+        "syncfusion.xamarin.datasource.nuspec"
+      ]
+    },
+    "Syncfusion.Xamarin.GridCommon/17.4.0.46": {
+      "sha512": "OGC/QWhqCwjm5HZgSMbwMz80+Jmdop5g0hkehrKs8RWpTwtd2ABnfaudMScbz2C/1rkLslwB9hiIHmUVdKcxKQ==",
+      "type": "package",
+      "path": "syncfusion.xamarin.gridcommon/17.4.0.46",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Syncfusion.GridCommon.Portable.XML",
+        "lib/MonoAndroid10/Syncfusion.GridCommon.Portable.dll",
+        "lib/Xamarin.Mac/Syncfusion.GridCommon.Portable.XML",
+        "lib/Xamarin.Mac/Syncfusion.GridCommon.Portable.dll",
+        "lib/Xamarin.iOS10/Syncfusion.GridCommon.Portable.XML",
+        "lib/Xamarin.iOS10/Syncfusion.GridCommon.Portable.dll",
+        "lib/netstandard2.0/Syncfusion.GridCommon.Portable.XML",
+        "lib/netstandard2.0/Syncfusion.GridCommon.Portable.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.GridCommon.Portable.XML",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.GridCommon.Portable.dll",
+        "lib/uap10.0/Syncfusion.GridCommon.Portable.XML",
+        "lib/uap10.0/Syncfusion.GridCommon.Portable.dll",
+        "syncfusion.xamarin.gridcommon.17.4.0.46.nupkg.sha512",
+        "syncfusion.xamarin.gridcommon.nuspec"
+      ]
+    },
+    "Syncfusion.Xamarin.SfBadgeView/17.4.0.46": {
+      "sha512": "uMh/rYQ9rJb+xL8RF1Y0zkY2Ff0NGk83gORDJusUw8+80+9rLWQrck6RvP/tk7+CRDlu82sdMZfxa8CoykSMGQ==",
+      "type": "package",
+      "path": "syncfusion.xamarin.sfbadgeview/17.4.0.46",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Syncfusion.SfBadgeView.XForms.Android.dll",
+        "lib/MonoAndroid10/Syncfusion.SfBadgeView.XForms.dll",
+        "lib/MonoAndroid10/Syncfusion.SfBadgeView.XForms.xml",
+        "lib/Xamarin.iOS10/Syncfusion.SfBadgeView.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfBadgeView.XForms.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfBadgeView.XForms.xml",
+        "lib/netstandard2.0/Syncfusion.SfBadgeView.XForms.dll",
+        "lib/netstandard2.0/Syncfusion.SfBadgeView.XForms.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfBadgeView.XForms.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfBadgeView.XForms.xml",
+        "lib/uap10.0/Syncfusion.SfBadgeView.XForms.UWP.XML",
+        "lib/uap10.0/Syncfusion.SfBadgeView.XForms.UWP.dll",
+        "lib/uap10.0/Syncfusion.SfBadgeView.XForms.UWP.pri",
+        "lib/uap10.0/Syncfusion.SfBadgeView.XForms.UWP/Assets/Fonts/BadgeIcons.ttf",
+        "lib/uap10.0/Syncfusion.SfBadgeView.XForms.UWP/Properties/Syncfusion.SfBadgeView.XForms.UWP.rd.xml",
+        "lib/uap10.0/Syncfusion.SfBadgeView.XForms.dll",
+        "lib/uap10.0/Syncfusion.SfBadgeView.XForms.xml",
+        "syncfusion.xamarin.sfbadgeview.17.4.0.46.nupkg.sha512",
+        "syncfusion.xamarin.sfbadgeview.nuspec"
+      ]
+    },
     "Syncfusion.Xamarin.SfComboBox/17.4.0.46": {
       "sha512": "gl22W7TEGuZAphUPP5VLVyeSNpXjoMM2Hrgo46j4yG4sKvKPXQmn6MwdRhFTCijsRO04cYYFhGI/OyGJMUq+Jg==",
       "type": "package",
@@ -1130,6 +1347,123 @@
         "lib/uap10.0/Syncfusion.SfComboBox.XForms.dll",
         "syncfusion.xamarin.sfcombobox.17.4.0.46.nupkg.sha512",
         "syncfusion.xamarin.sfcombobox.nuspec"
+      ]
+    },
+    "Syncfusion.Xamarin.SfListView/17.4.0.46": {
+      "sha512": "D4xoK7f94aCHELIsaZiU1I00V+b0qi5WFS0lMhAxIsEEVZ6yhWMXNi8crfPS0zrVp+Z5xzAPrm2eMrdWVDxTrw==",
+      "type": "package",
+      "path": "syncfusion.xamarin.sflistview/17.4.0.46",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Syncfusion.SfListView.XForms.Android.dll",
+        "lib/MonoAndroid10/Syncfusion.SfListView.XForms.dll",
+        "lib/MonoAndroid10/Syncfusion.SfListView.XForms.xml",
+        "lib/Xamarin.Mac/Syncfusion.SfListView.XForms.dll",
+        "lib/Xamarin.Mac/Syncfusion.SfListView.XForms.macOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfListView.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfListView.XForms.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfListView.XForms.xml",
+        "lib/netstandard2.0/Syncfusion.SfListView.XForms.dll",
+        "lib/netstandard2.0/Syncfusion.SfListView.XForms.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfListView.XForms.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfListView.XForms.xml",
+        "lib/uap10.0/Syncfusion.SfListView.XForms.UWP.XML",
+        "lib/uap10.0/Syncfusion.SfListView.XForms.UWP.dll",
+        "lib/uap10.0/Syncfusion.SfListView.XForms.dll",
+        "lib/uap10.0/Syncfusion.SfListView.XForms.xml",
+        "syncfusion.xamarin.sflistview.17.4.0.46.nupkg.sha512",
+        "syncfusion.xamarin.sflistview.nuspec"
+      ]
+    },
+    "Syncfusion.Xamarin.SfPopupLayout/17.4.0.46": {
+      "sha512": "nCjucH5XT3801NzwJxoL7ERitNKgikczu0C1VJHW2DumkC6owJE6UULNRse+UUlzlem/oG8vE7eH2ffj91+efQ==",
+      "type": "package",
+      "path": "syncfusion.xamarin.sfpopuplayout/17.4.0.46",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Syncfusion.SfPopupLayout.XForms.Android.dll",
+        "lib/MonoAndroid10/Syncfusion.SfPopupLayout.XForms.dll",
+        "lib/MonoAndroid10/Syncfusion.SfPopupLayout.XForms.xml",
+        "lib/Xamarin.iOS10/Syncfusion.SfPopupLayout.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfPopupLayout.XForms.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfPopupLayout.XForms.xml",
+        "lib/netstandard2.0/Syncfusion.SfPopupLayout.XForms.dll",
+        "lib/netstandard2.0/Syncfusion.SfPopupLayout.XForms.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfPopupLayout.XForms.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfPopupLayout.XForms.xml",
+        "lib/uap10.0/Syncfusion.SfPopupLayout.XForms.UWP.XML",
+        "lib/uap10.0/Syncfusion.SfPopupLayout.XForms.UWP.dll",
+        "lib/uap10.0/Syncfusion.SfPopupLayout.XForms.UWP.pri",
+        "lib/uap10.0/Syncfusion.SfPopupLayout.XForms.UWP/Properties/Syncfusion.SfPopupLayout.XForms.UWP.rd.xml",
+        "lib/uap10.0/Syncfusion.SfPopupLayout.XForms.UWP/Resources/popup_forms_dark_theme_close_icon.png",
+        "lib/uap10.0/Syncfusion.SfPopupLayout.XForms.UWP/Resources/popup_forms_light_theme_close_icon.png",
+        "lib/uap10.0/Syncfusion.SfPopupLayout.XForms.UWP/Resources/popup_forms_uwp_close_icon.png",
+        "lib/uap10.0/Syncfusion.SfPopupLayout.XForms.UWP/Syncfusion.SfPopupLayout.XForms.UWP/Resources/popup_forms_dark_theme_close_icon.png",
+        "lib/uap10.0/Syncfusion.SfPopupLayout.XForms.UWP/Syncfusion.SfPopupLayout.XForms.UWP/Resources/popup_forms_light_theme_close_icon.png",
+        "lib/uap10.0/Syncfusion.SfPopupLayout.XForms.UWP/Syncfusion.SfPopupLayout.XForms.UWP/Resources/popup_forms_uwp_close_icon.png",
+        "lib/uap10.0/Syncfusion.SfPopupLayout.XForms.dll",
+        "lib/uap10.0/Syncfusion.SfPopupLayout.XForms.xml",
+        "syncfusion.xamarin.sfpopuplayout.17.4.0.46.nupkg.sha512",
+        "syncfusion.xamarin.sfpopuplayout.nuspec"
+      ]
+    },
+    "Syncfusion.Xamarin.SfRating/17.4.0.46": {
+      "sha512": "X1eCBVZIL1necogQnQASv/Ss+lFMOQoC5AvXFCDwbM9WPivH0lerxKkEpjMtOXsQnibzpj5FrtEweid0MrMKEg==",
+      "type": "package",
+      "path": "syncfusion.xamarin.sfrating/17.4.0.46",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Syncfusion.SfRating.Android.dll",
+        "lib/MonoAndroid10/Syncfusion.SfRating.Android.xml",
+        "lib/MonoAndroid10/Syncfusion.SfRating.XForms.Android.dll",
+        "lib/MonoAndroid10/Syncfusion.SfRating.XForms.XML",
+        "lib/MonoAndroid10/Syncfusion.SfRating.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfRating.XForms.XML",
+        "lib/Xamarin.iOS10/Syncfusion.SfRating.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfRating.XForms.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfRating.iOS.dll",
+        "lib/netstandard2.0/Syncfusion.SfRating.XForms.XML",
+        "lib/netstandard2.0/Syncfusion.SfRating.XForms.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfRating.XForms.XML",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfRating.XForms.dll",
+        "lib/uap10.0/Syncfusion.SfRating.XForms.UWP.XML",
+        "lib/uap10.0/Syncfusion.SfRating.XForms.UWP.dll",
+        "lib/uap10.0/Syncfusion.SfRating.XForms.XML",
+        "lib/uap10.0/Syncfusion.SfRating.XForms.dll",
+        "syncfusion.xamarin.sfrating.17.4.0.46.nupkg.sha512",
+        "syncfusion.xamarin.sfrating.nuspec"
+      ]
+    },
+    "Syncfusion.Xamarin.SfRotator/17.4.0.46": {
+      "sha512": "EW8E+Fmn71JuKxtO7ejC5y/c0ce+V3JgPjrvwwg5bwmSl/6X92FwFklnq5ID/bzc/Dga2mJmTFl4JGzlHCXksw==",
+      "type": "package",
+      "path": "syncfusion.xamarin.sfrotator/17.4.0.46",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Syncfusion.SfRotator.Android.dll",
+        "lib/MonoAndroid10/Syncfusion.SfRotator.Android.xml",
+        "lib/MonoAndroid10/Syncfusion.SfRotator.XForms.Android.dll",
+        "lib/MonoAndroid10/Syncfusion.SfRotator.XForms.dll",
+        "lib/MonoAndroid10/Syncfusion.SfRotator.XForms.xml",
+        "lib/Xamarin.iOS10/Syncfusion.SfRotator.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfRotator.XForms.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfRotator.XForms.xml",
+        "lib/Xamarin.iOS10/Syncfusion.SfRotator.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfRotator.iOS.xml",
+        "lib/netstandard2.0/Syncfusion.SfRotator.XForms.dll",
+        "lib/netstandard2.0/Syncfusion.SfRotator.XForms.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfRotator.XForms.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfRotator.XForms.xml",
+        "lib/uap10.0/Syncfusion.SfRotator.XForms.UWP.XML",
+        "lib/uap10.0/Syncfusion.SfRotator.XForms.UWP.dll",
+        "lib/uap10.0/Syncfusion.SfRotator.XForms.dll",
+        "lib/uap10.0/Syncfusion.SfRotator.XForms.xml",
+        "syncfusion.xamarin.sfrotator.17.4.0.46.nupkg.sha512",
+        "syncfusion.xamarin.sfrotator.nuspec"
       ]
     },
     "System.Numerics.Vectors/4.5.0": {
@@ -2438,8 +2772,14 @@
     "MonoAndroid,Version=v9.0": [
       "Gebeta >= 1.0.0",
       "Syncfusion.Xamarin.Buttons >= 17.4.0.46",
+      "Syncfusion.Xamarin.Cards >= 17.4.0.46",
       "Syncfusion.Xamarin.Core >= 17.4.0.46",
+      "Syncfusion.Xamarin.SfBadgeView >= 17.4.0.46",
       "Syncfusion.Xamarin.SfComboBox >= 17.4.0.46",
+      "Syncfusion.Xamarin.SfListView >= 17.4.0.46",
+      "Syncfusion.Xamarin.SfPopupLayout >= 17.4.0.46",
+      "Syncfusion.Xamarin.SfRating >= 17.4.0.46",
+      "Syncfusion.Xamarin.SfRotator >= 17.4.0.46",
       "Xamarin.Android.Support.Core.Utils >= 28.0.0.1",
       "Xamarin.Essentials >= 1.2.0",
       "Xamarin.Forms >= 4.2.0.709249"
@@ -2491,11 +2831,35 @@
             "target": "Package",
             "version": "[17.4.0.46, )"
           },
+          "Syncfusion.Xamarin.Cards": {
+            "target": "Package",
+            "version": "[17.4.0.46, )"
+          },
           "Syncfusion.Xamarin.Core": {
             "target": "Package",
             "version": "[17.4.0.46, )"
           },
+          "Syncfusion.Xamarin.SfBadgeView": {
+            "target": "Package",
+            "version": "[17.4.0.46, )"
+          },
           "Syncfusion.Xamarin.SfComboBox": {
+            "target": "Package",
+            "version": "[17.4.0.46, )"
+          },
+          "Syncfusion.Xamarin.SfListView": {
+            "target": "Package",
+            "version": "[17.4.0.46, )"
+          },
+          "Syncfusion.Xamarin.SfPopupLayout": {
+            "target": "Package",
+            "version": "[17.4.0.46, )"
+          },
+          "Syncfusion.Xamarin.SfRating": {
+            "target": "Package",
+            "version": "[17.4.0.46, )"
+          },
+          "Syncfusion.Xamarin.SfRotator": {
             "target": "Package",
             "version": "[17.4.0.46, )"
           },

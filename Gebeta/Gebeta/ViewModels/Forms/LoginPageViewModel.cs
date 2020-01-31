@@ -99,8 +99,8 @@ namespace Gebeta.ViewModels.Forms
                 if (user != null)
                     if (Email == user.Email && Password == user.Password)
                     {
-                        await App.Current.MainPage.DisplayAlert("Login Success", "", "Ok");
-
+                     
+                        await App.Current.MainPage.Navigation.PopAsync();
                         await App.Current.MainPage.Navigation.PushAsync(new MainPage());
                     }
                     else
@@ -116,7 +116,7 @@ namespace Gebeta.ViewModels.Forms
         /// <param name="obj">The Object</param>
         private async void SignUpClicked(object obj)
         {
-            await App.Current.MainPage.Navigation.PushAsync(new MainPage());
+            await App.Current.MainPage.Navigation.PushAsync(new Views.Forms.SignUpPage());
         }
 
         /// <summary>
